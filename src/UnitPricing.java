@@ -6,9 +6,9 @@ public class UnitPricing {
         int quantity;
         int unitPrice;
 
-        System.out.print("Please enter the Quantity desired:");
+        System.out.print("Please enter the Quantity desired: ");
         quantity = inputStream.nextInt();
-        System.out.print("Please enter the Unit price:");
+        System.out.print("Please enter the Unit price: ");
         unitPrice = inputStream.nextInt();
         System.out.println("The Quantity desired is: " + quantity);
         System.out.println("The Unit Price is: $" + unitPrice);
