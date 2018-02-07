@@ -12,7 +12,6 @@ public static void main(String[] args) {
 
     panel.add(new JLabel("Quantity: "));
     panel.add(quantityVar);
-    panel.add(Box.createHorizontalStrut(15));
     panel.add(new JLabel("Unit price: "));
     panel.add(unitPriceVar);
 
