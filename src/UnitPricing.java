@@ -6,20 +6,18 @@ public class UnitPricing {
 
 public static void main(String[] args) {
     JPanel panel = new JPanel();
-    JTextField quantityVar = new JTextField(5);
-    JTextField unitPriceVar = new JTextField(5);
+    JTextField quantityVar = new JTextField(3);
+    JTextField unitPriceVar = new JTextField(3);
     int quantity, unitPrice, confirmCode;
 
-    panel.add(new JLabel("Quantity: "));
-    panel.add(quantityVar);
-    panel.add(new JLabel("Unit price: "));
-    panel.add(unitPriceVar);
+    panel.add(new JLabel("Quantity:"));   panel.add(quantityVar);  panel.add(Box.createHorizontalStrut(15));
+    panel.add(new JLabel("Unit price:")); panel.add(unitPriceVar);
 
     confirmCode = JOptionPane.showConfirmDialog(
             null,
             panel,
             "Unit Pricing",
-            JOptionPane.OK_CANCEL_OPTION,
+            JOptionPane.DEFAULT_OPTION,
             JOptionPane.QUESTION_MESSAGE,
             null);
 
